@@ -1,4 +1,4 @@
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start 1
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # THEME REDEFINE CONFIGURATION FILE V2
 # BY EVANNOTFOUND
 # GITHUB: https://github.com/EvanNotFound/hexo-theme-redefine
@@ -213,11 +213,12 @@ navbar:
         path: /categories/ #链接
     About: 
       icon: fa-regular fa-user
-      submenus:
-        Me: /about
+      path: /about
+      # submenus:
+        # Me: /about
         # Github: https://github.com/Sabthever
         # Blog: https://ohevan.com
-        Friends: /friends
+        # Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:

@@ -211,9 +211,9 @@ navbar:
     # Categories: #取名随意
     #     icon: fa-solid fa-folder #图标
     #     path: /categories/ #链接
-    # 相册: #取名随意
-    #   icon: fa-solid fa-image #图标
-    #   path: /masonry
+    相册: #取名随意
+      icon: fa-solid fa-image #图标
+      path: /masonry/
     About: 
       icon: fa-regular fa-user
       path: /about

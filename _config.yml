@@ -174,7 +174,7 @@ home_banner:
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email: 270949825@qq.com  # your email
+      email: 3175693234@qq.com  # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -205,6 +205,9 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
+    书签:
+      icon: fa-solid fa-bookmark #图标
+      path: /bookmarks/
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -259,15 +262,24 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      # Archives: 
+      # 归档: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty
-      # Tags: 
+      # 标签: 
       #   path: /tags 
       #   icon: fa-regular fa-tags # can be empty
-      # Categories: 
+      # 分类: 
       #   path: /categories 
       #   icon: fa-regular fa-folder # can be empty
+      书签:
+        icon: fa-solid fa-bookmark #图标
+        path: /bookmarks/
+      相册: #取名随意
+        icon: fa-solid fa-image #图标
+        path: /masonry/
+      关于: 
+        icon: fa-regular fa-user
+        path: /about
       # ...... # you can add more
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
@@ -472,7 +484,7 @@ plugins:
 # Docs: https://redefine-docs.ohevan.com/page_templates
 page_templates:
   # Friend Links page column number
-  friends_column: 2
+  friends_column: 3
   # Tags page style
   tags_style: blur # blur, cloud
 # PAGE TEMPLATES <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end

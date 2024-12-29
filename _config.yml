@@ -238,6 +238,13 @@ navbar:
     enable: true
     # Preload search data when the page loads
     preload: true
+    path: search.xml
+    field: post
+    content: true   # 是否包含每篇文章的全部内容。如果false，生成的结果只包含标题和其他元信息，不包含正文。默认为true。
+    format: html
+                  # html (默认) - 被最小化的原始 html 字符串。
+                  # striptags-原始 html 字符串被最小化，并删除所有标签。
+                  # raw-每个帖子或页面的 markdown 文本。
 # NAVIGATION BAR <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

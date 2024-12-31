@@ -202,6 +202,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    说说:
+      path: /essays
+      icon: fa-solid fa-message-dots
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
@@ -262,6 +265,9 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
+      说说:
+        icon: fa-solid fa-message-dots
+        path: /essays
       # 归档: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty

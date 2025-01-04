@@ -94,6 +94,8 @@
                         <%- theme.inject.footer[i] %>
                 <% } } %>
         <% } }%>
-        
+        <% if (theme.footer.hasOwnProperty('text') && theme.footer.text) { %>
+            <div class="customize-info my-1"><%- theme.footer.text %></div>
+        <% } %>
     </div>  
 </footer>

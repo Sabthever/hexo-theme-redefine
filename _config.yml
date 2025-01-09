@@ -439,7 +439,7 @@ footer:
     enable: false # Whether to enable
     number: # ICP record number
     url: # ICP record url
-  text: 免责声明：本站所有内容完全免费！不得将本站内容用于商业或者非法用途。
+  text: 本站所有内容完全免费！不得将本站内容用于商业或者非法用途！
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -485,6 +485,8 @@ plugins:
   mermaid:
     enable: false # enable mermaid or not
     version: "11.4.1" # default v11.4.1
+  mindmap:
+    enable: true
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 

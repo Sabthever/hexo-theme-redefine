@@ -84,6 +84,9 @@
                 } catch (error) {}
             </script>
         <% } %>
+        <% if (theme.footer.hasOwnProperty('text') && theme.footer.text) { %>
+            <div class="customize-info my-1"><%- theme.footer.text %></div>
+        <% } %>
         <% if (theme.inject.enable === true) { %>
             <% for (let i in theme.inject.footer) { %>
                 <% if (theme.inject.footer[i] !== null ){ %>
@@ -94,8 +97,5 @@
                         <%- theme.inject.footer[i] %>
                 <% } } %>
         <% } }%>
-        <% if (theme.footer.hasOwnProperty('text') && theme.footer.text) { %>
-            <div class="customize-info my-1"><%- theme.footer.text %></div>
-        <% } %>
     </div>  
 </footer>

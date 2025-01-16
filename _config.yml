@@ -202,13 +202,13 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-house # can be empty
+      icon: fa-solid fa-house # can be empty
     说说:
       path: /essays
       icon: fa-solid fa-message-dots
     Archives: 
       path: /archives 
-      icon: fa-regular fa-archive # can be empty
+      icon: fa-solid fa-archive # can be empty
     书签:
       icon: fa-solid fa-bookmark #图标
       path: /bookmarks/
@@ -222,7 +222,7 @@ navbar:
       icon: fa-solid fa-image #图标
       path: /masonry/
     About: 
-      icon: fa-regular fa-user
+      icon: fa-solid fa-user
       path: /about
       # submenus:
         # Me: /about
@@ -262,7 +262,7 @@ home:
   sidebar:
     enable: true # Whether to enable sidebar
     position: left # Sidebar position. left, right
-    first_item: menu # First item in sidebar. menu, info
+    first_item: info # First item in sidebar. menu, info
     announcement: '公告：暂无告示' # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
@@ -271,7 +271,7 @@ home:
         path: /essays
       # 归档: 
       #   path: /archives 
-      #   icon: fa-regular fa-archive # can be empty
+      #   icon: fa-solid fa-archive # can be empty
       # 标签: 
       #   path: /tags 
       #   icon: fa-regular fa-tags # can be empty
@@ -285,7 +285,7 @@ home:
         icon: fa-solid fa-image #图标
         path: /masonry/
       关于: 
-        icon: fa-regular fa-user
+        icon: fa-solid fa-user
         path: /about
       # ...... # you can add more
   # Article date format
